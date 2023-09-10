@@ -2,9 +2,9 @@ import heroSvg from "../../assets/hero.svg";
 
 const Hero = () => {
   return (
-    <div className="flex flex-wrap gap-20 justify-around items-center">
+    <div className="flex flex-wrap gap-20 h-[60vh] justify-around items-center">
       <div className="flex flex-col gap-5 items-center lg:items-start">
-        <div className="typography text-center lg:text-start flex flex-col gap-5">
+        <div className="typography text-center text-white lg:text-start flex flex-col gap-5">
           <h1 className="font-bold text-2xl lg:text-2xl xl:text-4xl lg:max-w-lg">
             Resourse Sync is a world class tool
           </h1>
@@ -12,7 +12,7 @@ const Hero = () => {
         </div>
         <div className="button-container flex gap-5">
           <a
-            className="py-2 px-5 text-center rounded-lg border bg-indigo-500 text-white shadow-md hover:opacity-90 active:bg-indigo-700"
+            className="py-2 px-5 text-center rounded-lg border bg-indigo-500 text-white shadow-md hover:opacity-70 active:bg-indigo-700"
             href="#contact"
           >
             Get Started Today!

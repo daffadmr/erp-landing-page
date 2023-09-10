@@ -64,7 +64,7 @@ const Navbar = () => {
               <ul className="flex gap-5 flex-col lg:w-auto lg:flex-row items-start lg:items-center w-full lg:pb-0">
                 {nav.map((list, index) => {
                   return (
-                    <li key={index} className={`w-full`}>
+                    <li key={index} className={`w-full ${loginRoute && 'hidden'}`}>
                       <a
                         className={`block py-3 lg:w-auto lg:pl-4`}
                         href={`${list.id}`}

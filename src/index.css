@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.hamburger-line {
+  @apply w-[30px] h-[2px] bg-white block;
+}
+
+.hamburger-line-black {
+  @apply w-[30px] h-[2px] bg-black block;
+}
+
+.click > span:nth-child(1) {
+  @apply rotate-45;
+}
+
+.click > span:nth-child(2) {
+  @apply scale-0;
+}
+.click > span:nth-child(3) {
+  @apply -rotate-45;
+}

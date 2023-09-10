@@ -1,8 +1,7 @@
-# React + Vite
+# Teknologi yang digunakan
+- React: Library/framework yang memudahkan pembuatan website, memisahkan setiap komponen yang ada untuk memudahkan maintenance atau perubahan yang akan datang.
+- Tailwind: Memudahkan penulisan style CSS. Untuk saya pribadi, lebih nyaman dan cepat dalam menuliskan kelas pada HTML dan styling yang diinginkan.
+- React-router-dom: Library yang digunakan untuk membuat sebuah route atau navigasi pada React. Penerapan Outlet pada react-router-dom juga memudahkan untuk melakukan layouting pada website yang dibuat
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Link Deploy
+https://resourcesync.vercel.app/

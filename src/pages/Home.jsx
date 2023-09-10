@@ -6,7 +6,7 @@ import Pricing from "../components/home/Pricing";
 const home = () => {
   return (
     <>
-      <section className="py-24" id="home">
+      <section className="py-24 bg-indigo-500" id="home">
         <div className="container">
           <Hero />
         </div>
